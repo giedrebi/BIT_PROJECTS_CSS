@@ -1,0 +1,64 @@
+body {
+    background-image: url(images/cottonbro.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-top: 60px;
+    color: #596e79;
+}
+div {
+    border: 5px;
+    border-color:  #dfd8c8;
+    border-style: solid;
+    border-radius: 6px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+h1 {
+    font-size: 80px;
+}
+h2 {
+    font-size: 30px;
+    padding-bottom: 60px;
+}
+a:link, a:visited {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #596e79;
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    background-color:#dfd8c8;
+    border-radius: 6px;
+    border-style: solid;
+    padding: 15px;
+    transition: 1s;
+}
+a:hover {
+    font-size: 30px;
+    text-decoration: none;
+    color: #dfd8c8;
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    background-color:#596e79;
+    border-radius: 6px;
+    border-style: solid;
+    padding: 15px;
+}
+a:active {
+    font-size: 20px;
+    text-decoration: none;
+    color: #596e79;
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    background-color:#dfd8c8;
+    border-radius: 6px;
+    border-style: solid;
+    padding: 15px;
+}

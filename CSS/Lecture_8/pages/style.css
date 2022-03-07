@@ -1,0 +1,147 @@
+body {
+    background-color: #f5f0e8; 
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+form {
+    padding: 20px 26px;
+    text-decoration: none;
+    display: inline-block;
+    width:600px;
+}
+footer {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    background-color: #596e79;
+}
+footer p {
+    padding-top: 20px;
+    color: #f5f0e8;
+}
+a.menu:link, a.menu:visited {
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #596e79;
+    font-family: 'Montserrat', sans-serif;
+    background-color:#f5f0e8;
+    border-radius: 6px;
+    border-style: solid;
+    padding: 10px;
+    width: 80px;
+    transition: 1s;
+}
+a.menu:hover {
+    font-size: 20px;
+    text-decoration: none;
+    color: #f5f0e8;
+    font-family: 'Montserrat', sans-serif;
+    background-color:#596e79;
+    border-radius: 6px;
+    border-style: solid;
+    padding: 10px;
+    width: 130px;
+}
+a.menu:active {
+    font-size: 15px;
+    text-decoration: none;
+    color: #596e79;
+    font-family: 'Montserrat', sans-serif;
+    background-color:#f5f0e8;
+    border-radius: 6px;
+    border-style: solid;
+    padding: 10px;
+}
+.sections {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.name {
+    font-size: xx-large;
+}
+#about > p {
+    font-size: medium;
+}
+#nav_menu , #footer_menu {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#about , #project1 , #project3 {
+    background-color: #596e79;
+    color: #f5f0e8;
+}
+#projects , #project2 {
+    color: #596e79;
+}
+#represent_photo > img {
+    width: 550px;
+    border-radius: 50% 20% / 10% 40%;
+    transition: 1s;
+}
+#represent_photo > img:hover {
+    width: 1000px;
+}
+#project1 > img {
+    width: 550px;
+    border-radius: 70% 30% 20% 30%;
+    transition: 1s;
+    transition-timing-function: ease-in;
+}
+#project1 > img:hover {
+    width: 700px;
+    transform: rotate(360deg);
+}
+#project2 > img {
+    width: 550px;
+    border-radius: 60% 30% 60% 10%;
+    transition: 1s;
+    transition-timing-function: ease-in;
+}
+#project2 > img:hover {
+    width: 700px;
+    transform: rotate(360deg);
+}
+#project3 > img {
+    width: 550px;
+    border-radius: 30% 70% 60% 40%;
+    transition: 1s;
+    transition-timing-function: ease-in;
+}
+#project3 > img:hover {
+    width: 700px;
+    transform: rotate(360deg);
+}
+#project1 > p , #project2 > p, #project3 > p {
+    padding-bottom: 30px;
+}
+#logo {
+    text-align: center;
+    background-color: #f5f0e8;
+    color: #596e79;
+    animation-name: logo;
+    animation-duration: 3s;
+    animation-delay: -1s;
+    animation-iteration-count: infinite;
+    position: relative;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 400px;
+    border-radius: 20px;
+}
+@keyframes logo {
+0%   {background-color:#f5f0e8; color: #52575d;}
+25%  {background-color:#dfd8c8; color: #15191b;}
+50%  {background-color:#596e79; color: #f5f0e8;}
+75%  {background-color:#dfd8c8; color: #15191b;}
+100% {background-color:#f5f0e8; color: #52575d;}
+}
+#contacts {
+    color: #596e79;
+}

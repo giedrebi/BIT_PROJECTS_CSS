@@ -1,0 +1,108 @@
+body {
+    background-color: #f5f0e8; 
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+footer {
+    background-color: #596e79;
+    margin-top: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+footer p {
+    padding-top: 20px;
+    color:#f5f0e8;
+}
+a.menu:link, a.menu:visited {
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #596e79;
+    font-family: 'Montserrat', sans-serif;
+    background-color:#f5f0e8;
+    border-radius: 6px;
+    border-style: solid;
+    padding: 10px;
+    width: 80px;
+    transition: 1s;
+}
+a.menu:hover {
+    font-size: 20px;
+    text-decoration: none;
+    color: #f5f0e8;
+    font-family: 'Montserrat', sans-serif;
+    background-color:#596e79;
+    border-radius: 6px;
+    border-style: solid;
+    padding: 10px;
+    width: 130px;
+}
+a.menu:active {
+    font-size: 15px;
+    text-decoration: none;
+    color: #596e79;
+    font-family: 'Montserrat', sans-serif;
+    background-color:#f5f0e8;
+    border-radius: 6px;
+    border-style: solid;
+    padding: 10px;
+}
+.name {
+    font-size: xx-large;
+    color: #596e79;
+}
+#nav_menu {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#nav_menu , #footer_menu {
+    background-color: #596e79;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#logo {
+    text-align: center;
+    background-color: #f5f0e8;
+    color: #596e79;
+    animation-name: logo;
+    animation-duration: 3s;
+    animation-delay: -1s;
+    animation-iteration-count: infinite;
+    position: relative;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 400px;
+    border-radius: 20px;
+}
+@keyframes logo {
+0%   {background-color:#f5f0e8; color: #52575d;}
+25%  {background-color:#dfd8c8; color: #15191b;}
+50%  {background-color:#596e79; color: #f5f0e8;}
+75%  {background-color:#dfd8c8; color: #15191b;}
+100% {background-color:#f5f0e8; color: #52575d;}
+}
+.row1 , .row2 , .row3 {
+    display: flex;
+}
+#column1 {
+    flex: 50%;
+    padding: 10px;
+}
+#column2 {
+    flex: 50%;
+    padding-bottom: 50px;
+}
+#image {
+    width: 400px;
+    border-radius: 50% 20% / 10% 40%;
+    transition: 1s;
+    transition-timing-function: ease-in;
+}
+#image:hover {
+    width: 580px;
+    transform: rotate(360deg);
+}
