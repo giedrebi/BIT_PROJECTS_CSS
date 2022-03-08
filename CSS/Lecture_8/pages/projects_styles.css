@@ -52,16 +52,19 @@ a.menu:active {
     font-size: xx-large;
     color: #596e79;
 }
-#nav_menu {
-    padding-top: 20px;
-    padding-bottom: 20px;
+.row1 , .row2 , .row3 {
+    display: flex;
 }
-#nav_menu , #footer_menu {
+#nav_menu {
     background-color: #596e79;
     display: flex;
     justify-content: space-evenly;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 20px; 
+    position: sticky;
+    top: 0rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 #logo {
     text-align: center;
@@ -84,9 +87,6 @@ a.menu:active {
 50%  {background-color:#596e79; color: #f5f0e8;}
 75%  {background-color:#dfd8c8; color: #15191b;}
 100% {background-color:#f5f0e8; color: #52575d;}
-}
-.row1 , .row2 , .row3 {
-    display: flex;
 }
 #column1 {
     flex: 50%;
