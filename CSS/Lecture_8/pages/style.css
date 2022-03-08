@@ -72,6 +72,13 @@ a.menu:active {
     margin-top: 20px;
     margin-bottom: 20px;
 }
+#nav_menu {
+    position: sticky;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    top: 0rem;
+    background-color: #f5f0e8;
+}
 #about , #project1 , #project3 {
     background-color: #596e79;
     color: #f5f0e8;
