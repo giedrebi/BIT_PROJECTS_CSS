@@ -63,8 +63,8 @@ a.menu:active {
     padding-bottom: 80px;
 }
 
-  .row > * {
-      flex-basis: 50%;
+  .row > div > img {
+      flex-basis: 100%;
   }
 #nav_menu {
     background-color: #596e79;
