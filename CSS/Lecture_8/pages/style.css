@@ -137,7 +137,7 @@ a.menu:active {
     margin: 0 auto;
     padding-top: 20px;
     padding-bottom: 20px;
-    width: 360px;
+    width: 33%;
     border-radius: 20px;
 }
 @keyframes logo {
@@ -152,6 +152,9 @@ a.menu:active {
 }
 @media (max-width: 800px) {
     img {
+        width: 80%;
+    }
+    #logo {
         width: 80%;
     }
 }
