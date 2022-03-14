@@ -63,9 +63,9 @@ a.menu:active {
     padding-bottom: 80px;
 }
 
-  .row > div > img {
+.row > div > img {
       flex-basis: 100%;
-  }
+}
 #nav_menu {
     background-color: #596e79;
     display: flex;
@@ -109,12 +109,16 @@ a.menu:active {
     width: 580px;
     transform: rotate(360deg);
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) { 
+    .row {
+        padding-bottom: 0px;
+    }
     #logo {
         width: 70%;
     }
     #image {
         width: 200px;
+        padding-bottom: 20px;
     }
     #image:hover {
         width: 300px;
