@@ -150,7 +150,7 @@ a.menu:active {
 #contacts {
     color: #596e79;
 }
-@media (max-width: 800px) {
+@media (max-width: 400px) {
     img {
         width: 80%;
     }
