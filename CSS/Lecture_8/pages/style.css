@@ -154,4 +154,10 @@ a.menu:active {
     #logo {
         width: 70%;
     }
+    img {
+        width: 60%;
+    }
+    img:hover {
+        width: 90%;
+    }
 }
