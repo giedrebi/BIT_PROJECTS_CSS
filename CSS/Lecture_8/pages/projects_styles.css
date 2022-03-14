@@ -57,6 +57,7 @@ a.menu:active {
 }
 .row {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
     padding-bottom: 80px;
@@ -65,6 +66,9 @@ a.menu:active {
     .row {
       flex-flow: row wrap;
     }
+  }
+  .row > * {
+      flex-basis: 50%;
   }
 #nav_menu {
     background-color: #596e79;
