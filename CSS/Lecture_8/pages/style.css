@@ -161,6 +161,9 @@ a.menu:active {
         width: 300px;
     }
     #represent_photo > img {
+        width: 250px;
+    }
+    #represent_photo > img:hover {
         width: 300px;
     }
 }
