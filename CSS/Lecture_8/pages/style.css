@@ -8,7 +8,7 @@ form {
     padding: 20px 26px;
     text-decoration: none;
     display: inline-block;
-    width:600px;
+    width:50%;
 }
 footer {
     padding-top: 5px;
@@ -93,7 +93,7 @@ a.menu:active {
     width: 900px;
 }
 #project1 > img , #project2 > img , #project3 > img {
-    width: 500px;
+    width: 45%;
     transition: 1s;
     transition-timing-function: ease-in;
 }
@@ -107,7 +107,7 @@ a.menu:active {
     border-radius: 30% 70% 60% 40%;
 }
 #project1 > img:hover , #project2 > img:hover , #project3 > img:hover {
-    width: 700px;
+    width: 60%;
     transform: rotate(360deg);
 }
 #project1 > p , #project2 > p, #project3 > p {
@@ -141,18 +141,20 @@ a.menu:active {
 @media screen and (max-width: 700px) {
     form {
         padding: 0;
-        width: 300px;
+        width: 90%;
     }
     #logo {
         width: 70%;
+        padding-top: 5px;
+        padding-bottom: 5px;
     }
-    #project1 > img , #project2 > img , #project3 > img {
-        width: 200px;
+    represent_photo > img {
+        width: 70%;
+    }
+    #project1 > img , #project2 > img , #project3 > img , #represent_photo > img {
+        width: 60%;
     }
     #project1 > img:hover , #project2 > img:hover , #project3 > img:hover , #represent_photo > img:hover {
-        width: 300px;
-    }
-    #represent_photo > img {
-        width: 250px;
+        width: 90%;
     }
 }
