@@ -150,7 +150,7 @@ a.menu:active {
 #contacts {
     color: #596e79;
 }
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 600px) {
     #logo {
         width: 70%;
     }
