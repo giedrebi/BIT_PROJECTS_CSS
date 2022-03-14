@@ -154,10 +154,13 @@ a.menu:active {
     #logo {
         width: 70%;
     }
-    image {
+    #project1 > img , #project2 > img , #project3 > img {
         width: 200px;
     }
-    image:hover {
-        width: 380px;
+    #project1 > img:hover , #project2 > img:hover , #project3 > img:hover {
+        width: 300px;
+    }
+    #represent_photo > img {
+        width: 300px;
     }
 }
