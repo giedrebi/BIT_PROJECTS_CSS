@@ -62,11 +62,7 @@ a.menu:active {
     align-items: center;
     padding-bottom: 80px;
 }
-@media(min-width:100px) {
-    .row {
-      flex-flow: row wrap;
-    }
-  }
+
   .row > * {
       flex-basis: 50%;
   }
