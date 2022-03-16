@@ -1,4 +1,6 @@
-# BIT_PROJECTS_CSS
+# BIT_PROJECTS_CSS 
+(https://giedrebi.github.io/BIT_PROJECTS_CSS/index.html)
+
 ## Lecture 8-16 
 #### TASK - project have include:
 #### 1. 
