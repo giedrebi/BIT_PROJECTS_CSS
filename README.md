@@ -1,8 +1,12 @@
 # BIT_PROJECTS_CSS
 ## Lecture 8-16 
+#### TASKS:
+####
+
+
 
 ## Lecture 18
-### TASK: to make changes in original code.
+#### TASK: to make changes in original code.
 Original code name original.html
 
 Changed code name changed.html
