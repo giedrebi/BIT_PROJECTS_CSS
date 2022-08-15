@@ -3,21 +3,24 @@ https://giedrebi.github.io/BIT_PROJECTS_CSS/index.html
 
 ## About 
 
+This project was made for learning purposes as homework.
 
+## Launch procedure
 
-## Lecture 8-16 
-#### TASK - project have include:
-#### 1. 
+1.  First you need to clone repository, so copy the link and go to the folder where you want to have this project,  then open `GIT BASH` there.
 
+2. Type `git clone`, then paste the URL you copied earlier and press Enter to create your local clone:
 
+`$ git clone https://github.com/giedrebi/BIT_PROJECTS_CSS.git`
 
-## Lecture 18
-#### TASK - to make changes in original code.
-Original code name original.html
+3. Open cloned project folder in VScode.
 
-Changed code name changed.html
+4. You need to have `Live Server` extension in `VScode`.
 
+5. To see website, press on `Go Live` at the bottom line on `VScode`.
 
-Changes I made:
-1. `section-a` and `section-b` were cupled to one row as `section-a`;
-2. added `border` to `section-a` and `section-c`, that columns would look seperated.
+## Author
+
+This project was created by me Giedre Bielske
+
+As well, you can find me in LinkedIn
