@@ -3,7 +3,9 @@ https://giedrebi.github.io/BIT_PROJECTS_CSS/index.html
 
 ## About 
 
-This project was made for learning purposes as homework.
+This project was made for learning purposes as homework. Simple real estate website with logo animation, landing page.
+
+I used HTML and CSS. 
 
 ## Launch procedure
 
